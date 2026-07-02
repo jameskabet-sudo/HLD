@@ -1,0 +1,27 @@
+Architecture decision comparison slide.
+
+Title: Key Architectural Decisions & Tradeoffs
+
+Show 3 comparison blocks:
+
+1. Frontend:
+React + Vite vs Angular vs Next.js
+
+2. Backend:
+FastAPI vs Next.js Server
+
+3. Real-time communication:
+REST vs SSE vs WebSockets
+
+For each block show:
+- Pros
+- Cons
+- Final decision highlighted
+
+Style:
+- Executive presentation slide
+- Minimal text
+- Clean comparison tables
+- Highlight selected option in green
+- Grey out alternatives
+- Modern enterprise design
