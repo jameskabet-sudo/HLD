@@ -1,0 +1,27 @@
+High level enterprise system architecture diagram.
+
+Show a modern internal web application architecture.
+
+Layers from top to bottom:
+
+1. React + Vite Frontend (browser UI)
+2. FastAPI Backend For Frontend (BFF)
+3. RabbitMQ message broker
+4. Existing Python Core system
+
+Arrows:
+
+- User actions flow:
+Browser → REST API → FastAPI → RabbitMQ → Python Core
+
+- Real-time events flow:
+Python Core → RabbitMQ → FastAPI → Server Sent Events (SSE) → Browser
+
+Design style:
+- Clean enterprise architecture diagram
+- Minimal text
+- White background
+- Blue/gray modern boxes
+- Clear directional arrows
+- Separate command flow and event flow visually
+- Professional system design presentation style
