@@ -1,0 +1,11 @@
+/architecture-pack
+ ├── 01_System_Architecture_Overview.docx
+ ├── 02_Architecture_Decision_Record.docx
+ ├── 03_Tradeoffs.docx
+ ├── 04_Presentation_Guidance.docx
+ ├── 05_NotebookLM_Prompt.docx
+ ├── FLOW_NOTES.md   (חדש - תוסיף בהמשך אם יש לך flow נוסף)
+ └── diagrams/       (אופציונלי)
+      ├── command_flow.png
+      ├── event_flow.png
+      └── system_overview.png
