@@ -1,0 +1,24 @@
+Real-time event streaming architecture diagram.
+
+Title: Event Flow - Real Time Updates
+
+Components:
+- Python Core System
+- RabbitMQ message broker
+- FastAPI SSE layer
+- React Frontend UI
+
+Flow:
+
+Python Core emits events →
+RabbitMQ distributes events →
+FastAPI subscribes and transforms events →
+SSE stream pushes updates →
+Browser UI updates in real time
+
+Style:
+- Streaming / pipeline visualization
+- Right to left or bottom to top flow
+- Emphasize continuous data flow (not request/response)
+- Use wave or stream visual metaphor
+- Modern enterprise UI architecture style
