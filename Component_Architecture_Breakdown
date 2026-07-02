@@ -1,0 +1,33 @@
+Component architecture diagram for enterprise system.
+
+Show 4 main components:
+
+- React + Vite Frontend (UI Layer)
+- FastAPI Backend For Frontend (API translation layer)
+- RabbitMQ Message Broker (integration layer)
+- Python Core System (business logic engine)
+
+Include responsibilities:
+
+Frontend:
+- UI only
+- No business logic
+
+FastAPI:
+- REST endpoints
+- SSE streaming
+- Message translation
+
+RabbitMQ:
+- Decoupling layer
+- Async communication
+
+Python Core:
+- Business logic
+- Execution engine
+
+Style:
+- Clean boxes
+- Layered architecture
+- Minimal text
+- Enterprise diagram style
