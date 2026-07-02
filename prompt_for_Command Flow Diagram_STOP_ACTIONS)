@@ -1,0 +1,25 @@
+Sequence diagram style architecture flow.
+
+Title: Command Flow - User Action Execution
+
+Actors:
+- React UI (Browser)
+- FastAPI BFF
+- RabbitMQ Queue
+- Python Core System
+
+Flow steps:
+
+1. User clicks "Run"
+2. React sends REST request to FastAPI
+3. FastAPI publishes command to RabbitMQ
+4. Python Core consumes message and executes action
+5. Optional response/status returned
+
+Style:
+- Clean sequence diagram
+- Left to right flow
+- Numbered steps
+- Enterprise architecture visualization
+- Minimal text
+- Focus on simplicity and clarity
