@@ -1,0 +1,18 @@
+End-to-end system architecture story diagram.
+
+Show full lifecycle:
+
+User → React UI → FastAPI → RabbitMQ → Python Core → RabbitMQ → FastAPI → SSE → UI
+
+Divide into two lanes:
+
+Top lane: Command execution flow
+Bottom lane: Real-time event feedback loop
+
+Style:
+- Storytelling architecture diagram
+- Clean arrows
+- Split lanes (commands vs events)
+- Enterprise dashboard aesthetic
+- Very minimal text
+- Focus on flow clarity over detail
